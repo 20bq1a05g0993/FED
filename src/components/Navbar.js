@@ -16,7 +16,7 @@ const Navbar = () => {
             TEMPLATING USING JSX
           </a>
           <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="#">Home</a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
             
           </ul>
         </li>
