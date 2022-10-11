@@ -2,29 +2,28 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="nav-menu d-flex flex-row justify-content-center">
-      <div className="logo">
-          <a href="">
-            <img src="https://www.campusoption.com/images/colleges/logos/13_02_17_063222_VV_LL.gif" alt="VVIT LOGO" height="100px" width="100px"  />
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">React</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            TEMPLATING USING JSX
           </a>
-      </div>
-      <div className="menu">
-        <ul>
-          <li>
-            <a href="#home"></a>
-          </li>
-          <li>
-            <a href="#about"></a>
-          </li>
-          <li>
-            <a href="#work"></a>
-          </li>
-          <li>
-            <a href="#clients"></a>
-          </li>
-        </ul>
-      </div>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="#">Home</a></li>
+            
+          </ul>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
   );
 };
 
