@@ -12,7 +12,7 @@ function App() {
       <div>
   
     <div className="article">
-      this is usestate page
+      this is home page
     </div>
       </div>
       )
