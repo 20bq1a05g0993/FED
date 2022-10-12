@@ -5,30 +5,32 @@ const Sidebar = () => {
   return (
     <div className='aside'>
         <div className="menu">
+          
         <ul>
           <Link to='/home'>
           <li>
-            <a href="#home">HOME</a>
+          <a href="#home"><button>Home</button></a>
           </li>
           </Link>
+          <br></br>
           <Link to="/about">
           <li>
-            <a href="#about">ABOUT</a>
+            <a href="#about"><button>ABOUT</button></a>
           </li>
-          </Link>
+          </Link><br></br>
           <Link to="/work">
           <li>
-            <a href="#work">PORTFOLIO</a>
+            <a href="#work"><button>PORTFOLIO</button></a>
           </li>
-          </Link>
+          </Link><br></br>
           <Link to="/clients"> 
           <li>
-            <a href="#clients">CONTACT</a>
+            <a href="#clients"><button>CONTACT</button></a>
           </li>
-          </Link>
+          </Link><br></br>
           <Link to="/usestate">
             <li>
-              <a href="#usestates">UseState</a>
+              <a href="#usestates"><button>USESTATE</button></a>
             </li>
           </Link>
         </ul>

@@ -112,10 +112,10 @@
 .aside {
     position: fixed;
     top:105px;
-    background: rgba(0, 0, 0, 0.07);
-    background-color: #c3c7c8;
-    padding: 10px;
-    width: 20%;
+    background: rgba(96, 85, 85, 0.07);
+    background-color: #afb9c3;
+    padding: 20px;
+    width: 25%;
     right:0px;
     left: 90%;
     overflow: auto;
@@ -152,5 +152,27 @@
     position:absolute;
     left:10px;
     width:73.5%;
-    background-color: #e2eaec;
+    background-color: #ffffff;
   }
+  h1{
+    color:red;
+  }
+  span{
+    background-color: rgb(162, 223, 238);
+}
+p{
+    font-size: large;
+}
+.codediv{
+    background-color: rgb(210, 219, 225);
+}
+.homepage{
+  position:absolute;
+  left:10px;
+  width:73.5%;
+  background-color: #ffffff;
+}
+h2{
+  color:#27bcda
+}
+
