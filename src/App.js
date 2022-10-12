@@ -156,6 +156,9 @@ Sample:
     </p>
     
     
+    
+    
+    <Footer/>
       </div>
       
     )
