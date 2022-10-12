@@ -113,7 +113,7 @@
     position: fixed;
     top:105px;
     background: rgba(96, 85, 85, 0.07);
-    background-color: #afb9c3;
+    background-color: #ebebd5;
     padding: 20px;
     width: 25%;
     right:0px;
@@ -155,7 +155,7 @@
     background-color: #ffffff;
   }
   h1{
-    color:red;
+    color:rgb(201, 208, 112);
   }
   span{
     background-color: rgb(162, 223, 238);
@@ -175,4 +175,3 @@ p{
 h2{
   color:#27bcda
 }
-

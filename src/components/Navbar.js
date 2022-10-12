@@ -2,6 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
+    
     <div className="nav-menu d-flex flex-row justify-content-center">
       <div className="menu">
         <ul>

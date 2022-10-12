@@ -155,7 +155,9 @@ Sample:
 
     </p>
     
+    
       </div>
+      
     )
     }
   const Home=()=>{
@@ -167,7 +169,7 @@ Sample:
       <h2>Introducing JSX</h2>
       <p>Consider this variable declaration:
 
-      This funny tag syntax is neither a string nor HTML.
+      <span>This funny tag syntax is neither a string nor HTML.</span>
 
 It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript.
 
