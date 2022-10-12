@@ -11,8 +11,15 @@ function App() {
 
       <div>
   
-    <div className="article">
-      this is home page
+    <div className="mainpage">
+      <h1>Templating Using Jsx</h1>
+      <p>HTML templating engine for React and TypeScript.
+
+write templates in plain HTML, compile to TypeScript (.tsx) and use like any other React component.
+Highly inspired to react-templates.
+No runtime libraries, no dependencies.
+Easy syntax that's similar to HTML, supported by most IDEs.
+Clear separation of presentation and logic - almost zero HTML in component files.</p>
     </div>
       </div>
       )

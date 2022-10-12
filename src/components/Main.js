@@ -7,7 +7,7 @@ const Main = () => {
     <div>
 
   <div className="article">
-    this is home page
+    this is home 
   </div>
     </div>
     )
