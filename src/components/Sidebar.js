@@ -30,7 +30,7 @@ const Sidebar = () => {
           </Link><br></br>
           <Link to="/usestate">
             <li>
-              <a href="#usestates"><button>USESTATE</button></a>
+              <a href="#tempalte"><button>TEMPLATE</button></a>
             </li>
           </Link>
         </ul>
