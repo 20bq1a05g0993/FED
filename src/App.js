@@ -9,6 +9,7 @@ import {useState} from 'react';
 function App() {
   const Usestateclick=()=>{
     return (
+      <div>
       <div className='mainpage'>
     <h1>Tempalting using jsx</h1>
     <p>
@@ -153,13 +154,11 @@ Sample:
     <p>
     React templates allow the settings of styles inline in HTML, optionally returning an object from the evaluation context. By default, style names will be converted from hyphen-style to camelCase-style naming.
     </p>
- 
     
     
     
-    
-    
-    
+      </div>
+      <Footer/>
       </div>
       
       

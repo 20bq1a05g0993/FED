@@ -36,9 +36,9 @@
     transform: rotate(360deg);
   }
 }
-.pakkakipo{
-  position:absolute;
-  left:80%;
-  width:100%;
-  top:15%;
-}
+  .pakkakipo{
+    position:absolute;
+    left:80%;
+    width:100%;
+    top:15%;
+  }
